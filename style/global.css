@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    --blue: #143f52;
+    --blue-detail:#003d52;
+    --blue-black: #162028;
+    --blue-dark: #425564;
+    --blue-grey: #6f8597;
+    --black: #252525;
+    --black-dark: #0b171f;
+    --grey: #555;
+
+
+    /* 1rem = 16px (User Agent do navegador) = 100% (User Agent)*/
+    font-size: 62.5%; /*= 10px*/
+}
+body{
+    font-family: tahoma, arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.container{
+    width: 102.4rem;
+    margin: 2rem auto;
+    
+}
+
+/*** HEADER ***/
+.header-top{
+    height: 5rem;
+    background-color: var(--blue-black);
+    color: var(--blue-dark);
+    
+}
+
+nav .logo{
+    margin-left:16.5rem
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1.5rem;
+    padding-top: .5rem;
+    /* background-color:tomato; */
+    height: 100%;
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 1.2rem;
+}
+
+.header-nav a{
+    color: var(--blue-dark);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: .5rem;
+}
+
+/**** Portfolio ****/
+
+.portfolio{
+    padding: 5rem 10rem;
+    text-align: center;
+}
+
+.portfolio h1{
+    font-size: 3.6rem;
+    color: var(--black);
+}
+
+.portfolio p{
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    color: var(--grey);
+}
+
+/**** Gallery ****/
+
+.gallery{
+    color: var(--grey);
+    padding: 0 10rem 5rem 10rem;
+    overflow: auto;
+}
+
+.gallery .card{
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+.gallery .title{
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+/*** ABOUT ***/
+
+.about{
+    background-color: var(--blue-detail);
+    background-image: url(../images/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: #ffffff;
+    padding: 10rem;
+}
+
+.about h2{
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: normal;
+}
+
+.about p{
+    line-height: 1.8rem;
+    width: 70%;
+}
+
+/*** CONTACT ***/
+
+#contact{
+    margin: 5rem 0;
+}
+
+address{
+    color: var(--blue);
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    font-style: normal;
+    text-align: center;
+    font-weight:bold;
+    margin: 5rem 0 5rem 0
+}
+
+.maps{
+    width: 100%;
+    height: 45rem;
+}
+
+.maps iframe{
+    width: 100%;
+}
+
+/*** footer ***/
+footer{
+    background: var(--black-dark);
+    color: var(--blue-grey);
+    padding: 2.5rem;
+    font-size: 1.2rem;
+    letter-spacing: .5rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
