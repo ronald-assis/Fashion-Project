@@ -1,4 +1,4 @@
-<!-- *** HEADER *** -->
+*** HEADER ***
 ______________
 
  Portfolio
@@ -8,14 +8,14 @@ ______________
 
 
 
-<!-- **** Portfolio **** -->
+**** Portfolio ****
 ___________________
 New Fashion Everything Never Enough
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris volutpat nisi non ante dictum congue. Cras id odio gravida, posuere velit sed, lacinia mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vehicula, ipsum vel congue cursus, mi neque tincidunt enim, egestas porttitor felis neque et risus. Maecenas fringilla hendrerit enim malesuada laoreet. Aenean quis tortor a odio tempus tincidunt. Vivamus rutrum nulla sed metus congue bibendum. Sed ut aliquam purus. Donec odio mauris, commodo sed dignissim vitae, dapibus eget mauris.
 
 
-<!-- **** Gallery **** -->
+**** Gallery ****
 
 Vest Romasa 
 Strong & charismatic
@@ -31,7 +31,7 @@ Power Fascinating
 
 
 
-<!-- **** About **** -->
+**** About ****
 _______________
 Everything Never Enough
 
@@ -41,13 +41,13 @@ Praesent placerat eros eget lacus ullamcorper, id dapibus ante vestibulum. Curab
 
 
 
-<!-- **** Contact **** -->
+**** Contact ****
 _________________
 Call me now for design
 012-1234-4567
 
 
 
-<!-- **** Footer **** -->
+**** Footer ****
 ________________
 Copyright © fastfashion.com
